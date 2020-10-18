@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "es2015",  // モジュールは ES Modules として出力
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",  // は ECMAScript 5 に変換
+  },
+  "include": [
+      "./src/**/*.ts"
+  ]
+}
+

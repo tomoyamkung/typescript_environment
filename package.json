@@ -1,0 +1,29 @@
+{
+  "name": "typescript-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomoyamkung/typescript_environment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomoyamkung/typescript_environment/issues"
+  },
+  "homepage": "https://github.com/tomoyamkung/typescript_environment#readme",
+  "devDependencies": {
+    "ts-loader": "^8.0.5",
+    "typescript": "^4.0.3",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0"
+  },
+  "private": true
+}
